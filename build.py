@@ -139,6 +139,7 @@ def build_chapter_html(num: int, total: int, prose_html: str) -> str:
       <p class="footer-contact">yihan@viewe.cn</p>
     </footer>
   </article>
+  <script src="https://cdn.counter.dev/script.js" data-id="020570ec-fac9-4a0c-adfc-b92e4fdf23a5" data-utcoffset="8"></script>
 </body>
 </html>"""
 
@@ -183,6 +184,7 @@ def build_index_html(chapters: list[tuple[int, str]]) -> str:
       <p class="footer-contact">yihan@viewe.cn</p>
     </footer>
   </div>
+  <script src="https://cdn.counter.dev/script.js" data-id="020570ec-fac9-4a0c-adfc-b92e4fdf23a5" data-utcoffset="8"></script>
 </body>
 </html>"""
 
